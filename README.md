@@ -4,7 +4,10 @@ Add Yandex Metrika to your Next.js web-application.
 ## How to add this to my project?
 
 ### Install by package
-Not avaliable yet! WIP!
+[NPM page](https://www.npmjs.com/package/next-yandex-metrika)
+```console
+npm add next-yandex-metrika
+```
 
 ### Install directly.
 Copy `index.js` inside your components directory as `YandexMetrika.js`, then import inside your Layout or somewhere, and inject this code inside `<Head>` tag:
