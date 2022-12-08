@@ -1,0 +1,25 @@
+{
+  "name": "next-yandex-metrika",
+  "version": "1.0.0",
+  "description": "Yandex Metrika for Next.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirillzhosul/next-yandex-metrika.git"
+  },
+  "keywords": [
+    "next.js",
+    "yandex",
+    "metrika",
+    "analytics",
+    "privacy",
+    "next",
+    "yandex-metrika"
+  ],
+  "author": "Kirill Zhosul",
+  "license": "MIT",
+  "homepage": "https://github.com/kirillzhosul/next-yandex-metrika#readme"
+}
