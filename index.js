@@ -8,10 +8,10 @@ function convertParam(boolValue, defaultValue) {
 
 function YandexMetrikaTag({
   yid,
-  clickmap,
-  trackLinks,
-  accurateTrackBounce,
-  webvisor,
+  clickmap=true,
+  trackLinks=true,
+  accurateTrackBounce=true,
+  webvisor=true,
 }) {
   /// Tag version of the Yandex Metrika.
   /// Used when there is support for the JavaScript to fully track user.
@@ -71,10 +71,10 @@ function YandexMetrikaPixel({ yid }) {
 
 export default function YandexMetrika({
   yid,
-  clickmap,
-  trackLinks,
-  accurateTrackBounce,
-  webvisor,
+  clickmap=true,
+  trackLinks=true,
+  accurateTrackBounce=true,
+  webvisor=true,
 }) {
   /// Yandex Metrika service.
   return (
